@@ -1,5 +1,5 @@
 First, you have to unlock Jenkins. To do that, we need to have automatically generated password.
-As mentioned on the landing page, it is written by default at "/var/jenkins_home/secrets/initialAdminPassword" this location in your container.
+As mentioned on the landing page, it is written by default at **/var/jenkins_home/secrets/initialAdminPassword** this location in your container.
 
 To get that password, we will log in to our container.
 
