@@ -4,10 +4,13 @@ Now, we will make a small change in the local copy of repository, push it to the
 
 To do so:
 
-	- Log into your Container.
-	- Go to your local repository (i.e. JenkinsGitTutorial)
-	- Make some changes in the **HelloWorld.java** file or create a new temporary text file in the directory.
-	- Now push the changes to remote repository.
+ + Log into your Container.
+
+ + Go to your local repository (i.e. JenkinsGitTutorial)
+
+ + Make some changes in the **HelloWorld.java** file or create a new temporary text file in the directory.
+
+ + Now push the changes to remote repository.
 
 Once the changes are pushed to remote repository, we can observe the **Build History** section of our project dashboard.
 

@@ -25,13 +25,20 @@ Once the download is complete & you see **Success** after each plugin, click on 
 Now, the next thing to be set is JDK which we will need to compile & execute our program. To do that:
 
  + Make sure you are on **Manage Jenkins** page.
+ 
  + Click on **Global Tool Configuration**
+ 
  + Click on **Add JDK**
+ 
  + Enter any name for JDK in the **JDK Name** text box.
+ 
  + Uncheck the **Install Automatically** checkbox.
+ 
  + Enter this path **/usr/lib/jvm/java-8-openjdk-amd64** in the **JAVA_HOME** text box.
   (You can get value of JAVA_HOME by logging into your container & entering **echo $JAVA_HOME**)
+ 
  + Click on **Apply**
+ 
  + Click on **Save**
 
 That's it! You are done with the settings.
