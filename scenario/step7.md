@@ -5,12 +5,18 @@ Now, for our scenario, we have to set certaing things & install plugins.
 
 First, we will install **GIT Plugin** for Jenkins. To do that:
 
-	Click on **Manage Jenkins** from left menu.
-	Click on **Manage Plugins** on the next page.
-	Select **Available** tab from the Plugin Manager page.
-	Enter **Git Plugin** in the **Filter box** on the upper right side.
-	Check the box before **Git Plugin** 
-	Click on **Install without restart**
+Click on **Manage Jenkins** from left menu.
+
+Click on **Manage Plugins** on the next page.
+
+Select **Available** tab from the Plugin Manager page.
+
+Enter **Git Plugin** in the **Filter box** on the upper right side.
+
+Check the box before **Git Plugin** 
+
+Click on **Install without restart**
+
 	
 Jenkins will download & install selected plugin as well as its dependencies.
 
