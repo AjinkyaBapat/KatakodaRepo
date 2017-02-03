@@ -13,23 +13,18 @@ docker exec "CONTAINER ID/NAME" /bin/bash
 For this scenario, we already have set up both "Git" & "Java" for you on this machine.
 
 You can check if they are installed by:
-`
-git --version
 
+`git --version
 `{{execute}}
 
-`
-java -version
-
+`java -version
 `{{execute}}
 
 
 Now, clone my repository which contains a simple java program which we will use for our demo.
 To do that: 
 
-`
-git clone https://github.com/AjinkyaBapat/JenkinsGitTutorial.git
-
+`git clone https://github.com/AjinkyaBapat/JenkinsGitTutorial.git
 `{{execute}}
 
 
@@ -40,9 +35,7 @@ To do that:
 
 Now push this local repository to your remote repository by:
 
-`
-git push origin master
-
+`git push origin master
 `{{execute}}
 
 

@@ -3,16 +3,12 @@ As mentioned on the landing page, it is written by default at "/var/jenkins_home
 
 To get that password, we will log in to our container.
 
-`
-docker exec "CONTAINER ID/NAME" /bin/bash
-
+`docker exec "CONTAINER ID/NAME" /bin/bash
 `{{execute}}
 
 Next, we will print that password on the screen by:
 
-`
-cat /var/jenkins_home/secrets/initialAdminPassword
-
+`cat /var/jenkins_home/secrets/initialAdminPassword
 `{{execute}}
 
 Copy the printed password & paste it into the textbox on Jenkins Page & press continue.

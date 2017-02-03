@@ -6,27 +6,27 @@
     "details": {
         "steps": [
             {
-                "title": "Step 1 - Pull",
+                "title": "Step 1 - Pull Jenkins Image",
                 "text": "step1.md"
             },
             {
-                "title": "Step 2 - Run",
+                "title": "Step 2 - Run a Container",
                 "text": "step2.md"
             },
             {
-                "title": "Step 3 - Exec",
+                "title": "Step 3 - Log into Container",
                 "text": "step3.md"
             },
             {
-                "title": "Step 4 - Jenkins UI",
+                "title": "Step 4 - Check Jenkins UI",
                 "text": "step4.md"
             },
             {
-                "title": "Step 5 - Jenkins Config",
+                "title": "Step 5 - Unlock Jenkins",
                 "text": "step5.md"
             },
             {
-                "title": "Step 6 - Jenkins Config Contd.",
+                "title": "Step 6 - Jenkins Configuration",
                 "text": "step6.md"
             },
             {
@@ -34,15 +34,15 @@
                 "text": "step7.md"
             },
             {
-                "title": "Step 8 - GIT",
+                "title": "Step 8 - Working with GIT",
                 "text": "step8.md"
             },
 			{
-                "title": "Step 9 - Jenkins Job",
+                "title": "Step 9 - Create Jenkins Job",
                 "text": "step9.md"
             },
 			{
-                "title": "Step 10 - CI",
+                "title": "Step 10 - Continuous Integration",
                 "text": "step10.md"
             }
         ],
@@ -60,7 +60,7 @@
     ],
     "environment": {
         "uilayout": "terminal",
-        "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart Kubernetes using `launch.sh`\u001b[m\r\n"
+        "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nScenario provided by `Ajinkya Bapat`\u001b[m\r\n"
     },
     "backend": {
         "port": 8080,
