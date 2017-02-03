@@ -29,8 +29,11 @@ To do that:
 
 Now you have to change the remote url from my repository to your newly created repository.
 To do that:
-	- Type **git remote set-url origin http://github.com/YOU/YOUR_REPO**
-	  (Make sure to change the url to your own repository)
+
+`git remote set-url origin _http://github.com/YOU/YOUR_REPO_
+`{{execute}}
+
+(Make sure to change the url to your own repository)
 
 Now push this local repository to your remote repository by:
 
