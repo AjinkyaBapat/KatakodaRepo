@@ -10,9 +10,9 @@ Copy either the **CONTAINER ID** or **CONTAINER NAME** from the output of above 
 
 Now, it's time to log into it by executing:
 
-`docker exec "CONTAINER ID/NAME" /bin/bash
+`docker exec -it "CONTAINER ID/NAME" /bin/bash
 `{{execute}}
 
-Replace quoted string with actual value of either CONTAINER ID/CONTAINER NAME.
+Replace quoted string with actual value of either **CONTAINER ID/CONTAINER NAME**.
 
 Now, we will be logged into our container as a ROOT user.

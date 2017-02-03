@@ -19,6 +19,12 @@ You can check if they are installed by:
 `java -version
 `{{execute}}
 
+First, we have to set two identifiers for GIT. To do so, type:
+
+	- git config --global user.email "you@example.com"
+	- git config --global user.name "Your User Name"
+	
+Replace quoted strings with your actual email & username.
 
 Now, clone my repository which contains a simple java program which we will use for our demo.
 To do that: 
