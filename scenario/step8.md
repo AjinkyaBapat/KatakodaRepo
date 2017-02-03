@@ -1,11 +1,50 @@
-With these steps completed the cluster is now running along with DNS and a UI. You can check the health running the following commands.
+As this scenario is all about how we can use Git with Jenkins to continuously build target based on the commits made to the repository on GitHub, you must have a GitHub account.
+If not, then create an account on GitHub.
 
+After logging in to your Github account, create a "New Repository".
+Keep it blank for now.
+
+Now, log into the container by:
 `
-curl http://docker:4001/version
-curl http://docker:8080/version
-export KUBERNETES_MASTER=http://docker:8080
-kubectl cluster-info
-kubectl get nodes
+docker exec "CONTAINER ID/NAME" /bin/bash
+
 `{{execute}}
 
-The results from port 4001 is etcd. The results from 8080 is Kubernetes. The _export KUBERNETES_MASTER_ command sets the default server for kubectl. 
+For this scenario, we already have set up both "Git" & "Java" for you on this machine.
+
+You can check if they are installed by:
+`
+git --version
+
+`{{execute}}
+
+`
+java -version
+
+`{{execute}}
+
+
+Now, clone my repository which contains a simple java program which we will use for our demo.
+To do that: 
+
+`
+git clone https://github.com/AjinkyaBapat/JenkinsGitTutorial.git
+
+`{{execute}}
+
+
+Now you have to change the remote url from my repository to your newly created repository.
+To do that:
+	- Type "git remote set-url origin http://github.com/YOU/YOUR_REPO"
+	  (Make sure to change the url to your own repository)
+
+Now push this local repository to your remote repository by:
+
+`
+git push origin master
+
+`{{execute}}
+
+
+Now you have your repository ready to be integrated with Jenkins.
+

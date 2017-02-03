@@ -1,12 +1,8 @@
-Each node in the cluster requires a running proxy server. The proxy is responsibility for managing communications by modifying the IPTables of the host machine. It also handles load balancing of traffic between containers on a host.
+As the container is up & running, now it's time to check Jenkins Web UI.
 
-`
-docker run -d --name=proxy\
-    --net=host \
-    --privileged \
-    gcr.io/google_containers/hyperkube:v1.1.2 \
-    /hyperkube proxy \
-    --master=http://0.0.0.0:8080 --v=2
-`{{execute}}
+You can access Jenkins by:
+ - Clicking on "+" icon next to the Terminal tab
+ - Clicking on "View HTTP port 80 on Host 1"
 
-The _master_ option is the HTTP of where the Master is running.
+
+In the next step, we will setup Jenkins.

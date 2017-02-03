@@ -1,12 +1,18 @@
-Kubectl allows you to launch containers on the cluster. When we launched the Master we defined a DNS IP which we'll now launch. Because Kubernetes uses etcd, it uses the related DNS service called SkyDNS.
+Now we have 2 options to Customize Jenkins:
+	1 - By Installing suggested plugins.
+	2 - By Selecting specific plugins to install.
 
-The DNS allows containers to communicate based on well-known names instead of IP addresses.
+You can choose any of the option, but for now we will select second: Select plugins to install.
 
-To start a container you define a replicate controller and a service in yaml files. The the "Launching Guestbook" scenario covers the format and differences between rc and services (svc).
+On the next page, various plugins are listed with their usage. You can check them one by one.
+But for now, we will select none of them.
 
-For now use the create command to launch the containers.
+Click on the "None" from upper left tab. This will uncheck all options.
 
-`
-kubectl create -f ~/skydns-rc.yaml
-kubectl create -f ~/skydns-svc.yaml
-`{{execute}}
+Now click on "Install"
+
+On the next page, enter your details like Username, Password, Full Name & click on "Save & Finish"
+
+Cheers! This completes our setting up of Jenkins !!
+
+Click on "Start using Jenkins"

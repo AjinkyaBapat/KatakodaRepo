@@ -1,41 +1,49 @@
 {
-    "title": "Launch Kubernetes Cluster",
-    "description": "Learn how to launch a Kubernetes cluster including DNS and Kube UI",
+    "title": "Jenkins Integration with GIT",
+    "description": "Learn how to integrate Jenkins with GIT for CI of code",
     "difficulty": "beginner",
     "time": "10-15 minutes",
     "details": {
         "steps": [
             {
-                "title": "Step 1 - Etcd",
+                "title": "Step 1 - Pull",
                 "text": "step1.md"
             },
             {
-                "title": "Step 2 - API Server",
+                "title": "Step 2 - Run",
                 "text": "step2.md"
             },
             {
-                "title": "Step 3 - Master",
+                "title": "Step 3 - Exec",
                 "text": "step3.md"
             },
             {
-                "title": "Step 4 - Proxy",
+                "title": "Step 4 - Jenkins UI",
                 "text": "step4.md"
             },
             {
-                "title": "Step 5 - Kubectl",
+                "title": "Step 5 - Jenkins Config",
                 "text": "step5.md"
             },
             {
-                "title": "Step 6 - KubeDNS / SkyDNS",
+                "title": "Step 6 - Jenkins Config Contd.",
                 "text": "step6.md"
             },
             {
-                "title": "Step 7 - Kube UI",
+                "title": "Step 7 - Manage Jenkins",
                 "text": "step7.md"
             },
             {
-                "title": "Step 8 - Health Checks",
+                "title": "Step 8 - GIT",
                 "text": "step8.md"
+            },
+			{
+                "title": "Step 9 - Jenkins Job",
+                "text": "step9.md"
+            },
+			{
+                "title": "Step 10 - CI",
+                "text": "step10.md"
             }
         ],
         "intro": {
@@ -56,6 +64,6 @@
     },
     "backend": {
         "port": 8080,
-        "imageid": "kubernetes"
+        "imageid": "docker"
     }
 }

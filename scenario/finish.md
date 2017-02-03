@@ -1,1 +1,1 @@
-This scenario has explained how to launch a Kubernetes cluster. In future scenarios you'll learn more details about Kubernetes, starting with launching your first example application.
+This scenario has explained how to integrate GIT with Jenkins to achieve continuous build & integration of your code.

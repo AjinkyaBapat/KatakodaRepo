@@ -1,23 +1,22 @@
-Kubernetes a combination of components, each run on the Master node. The Master is a single node which manages the cluster and the containers running it in. The master will launch new containers, configure networking and provide health information.
+In previous step, we pulled the Jenkins image from Docker Hub.
+So now its time to run a container based on this image.
 
-The library _hyperkube_ allows you to launch the different components. The first component is the API server. The API processes requests from the master and store information in the etcd cluster.
+To do this, type following command:
+
 `
-docker run -d --name=api \
-    --net=host --pid=host --privileged=true \
-    gcr.io/google_containers/hyperkube:v1.1.2 \
-    /hyperkube apiserver \
-    --insecure-bind-address=0.0.0.0 \
-    --service-cluster-ip-range=10.0.0.1/24 \
-    --etcd_servers=http://127.0.0.1:4001 \
-    --cluster_name=kubernetes --v=2
+docker run -d -u root -p 80:8080 jenkins
+
 `{{execute}}
 
-##### Options
+##### Here,
 
-_insecure-bind-address_ binds the API to all IP addresses and makes it available via HTTP. This is useful for development purposes as it removes the need for certifications but should not be used in production.
+-d : Detached Mode. Run container in background and print container ID
 
-_service-cluster-ip-range_ provides an IP range all containers will use.
+-u : User. Username or UID
 
-_etcd_servers_ indicates where the API can find the etcd servers. This is a comma separated list of HTTP endpoints
+-p : Publish. Publish a container’s port(s) to the host
 
-_cluster_name_ provides a friendly name to the cluster.
+jenkins : Name of the base image to run this container
+
+
+After running this command, a new container will be created & it's Container ID will be printed on terminal.
