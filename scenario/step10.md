@@ -21,5 +21,7 @@ Cron expression specified by us to do so checks for changes every minute in the 
 
 If it identifies that changes are made, it automatically triggers a new build.
 
+You can see **Caused by an SCM Change** in the Console Output of this new build.
+
 
 Cheers! Yoy have successfully integrated Jenkins wit Git in this tutorial.

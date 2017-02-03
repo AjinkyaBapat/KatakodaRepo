@@ -36,9 +36,9 @@ Now we will add build step. To do so:
 
  + Enter following in the textfield
 
-   - cd /JenkinsGitTutorial
-   - javac HelloWorld.java
-   - java HelloWorld
+	- cd /JenkinsGitTutorial
+	- javac HelloWorld.java
+	- java HelloWorld
 		 
  + Click on **Apply**
 
