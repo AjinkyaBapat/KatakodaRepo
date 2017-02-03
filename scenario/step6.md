@@ -1,4 +1,5 @@
 Now we have 2 options to Customize Jenkins:
+
 	1 - By Installing suggested plugins.
 	2 - By Selecting specific plugins to install.
 
