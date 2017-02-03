@@ -6,7 +6,7 @@ To do so:
 
  + Log into your Container.
 
- + Go to your local repository (i.e. JenkinsGitTutorial)
+ + Go to your local repository (i.e. **JenkinsGitTutorial**)
 
  + Make some changes in the **HelloWorld.java** file or create a new temporary text file in the directory.
 
@@ -14,14 +14,14 @@ To do so:
 
 Once the changes are pushed to remote repository, we can observe the **Build History** section of our project dashboard.
 
-After waiting for few seconds, you will observe a new job started running in the Build Histoy Section.
+After waiting for few seconds, you will observe a **new job** started running in the **Build Histoy** Section.
 
 This is because, Jenkins continuously checks for the changes in given repository. 
 Cron expression specified by us to do so checks for changes every minute in the remote repository.
 
 If it identifies that changes are made, it automatically triggers a new build.
 
-You can see **Caused by an SCM Change** in the Console Output of this new build.
+You can observe a statement **Caused by an SCM Change** in the Console Output of this new build.
 
 
 Cheers! Yoy have successfully integrated Jenkins wit Git in this tutorial.

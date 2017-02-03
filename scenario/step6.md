@@ -16,4 +16,4 @@ On the next page, enter your details like Username, Password, Full Name & click 
 
 Cheers! This completes our setting up of Jenkins !!
 
-Click on "Start using Jenkins"
+Click on **Start using Jenkins**

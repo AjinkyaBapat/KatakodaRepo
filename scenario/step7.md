@@ -1,9 +1,9 @@
 After setting up, now you will be landed on Jenkins Dashboard.
 Make yourself familiar with it.
 
-Now, for our scenario, we have to set certaing things & install plugins.
+Now, for our scenario, we have to set JDK & install Git plugin.
 
- + First, we will install **GIT Plugin** for Jenkins. To do that:
+First, we will install **GIT Plugin** for Jenkins. To do that:
 
  + Click on **Manage Jenkins** from left menu.
 
@@ -22,7 +22,7 @@ Jenkins will download & install selected plugin as well as its dependencies.
 
 Once the download is complete & you see **Success** after each plugin, click on **Manage Plugins**
 
-Now, the next thing to be set is JDK which we will need to compile & execute our program. To do that:
+Now, the next thing to do is to set **JDK** which we will need to compile & execute our program. To do that:
 
  + Make sure you are on **Manage Jenkins** page.
  
@@ -34,7 +34,7 @@ Now, the next thing to be set is JDK which we will need to compile & execute our
  
  + Uncheck the **Install Automatically** checkbox.
  
- + Enter this path **/usr/lib/jvm/java-8-openjdk-amd64** in the **JAVA_HOME** text box.
+ + Enter the path **/usr/lib/jvm/java-8-openjdk-amd64** in the **JAVA_HOME** text box.
   (You can get value of JAVA_HOME by logging into your container & entering **echo $JAVA_HOME**)
  
  + Click on **Apply**

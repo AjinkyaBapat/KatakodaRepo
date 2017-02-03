@@ -10,7 +10,7 @@ To do this, type following command:
 
 **-d** : Detached Mode. Run container in background and print container ID
 
-**-u** : User. Username or UID
+**-u** : User. Username or UID. 'root' in this case
 
 **-p** : Publish. Publish a container’s port(s) to the host
 
@@ -18,4 +18,4 @@ To do this, type following command:
 
 
 
-After running this command, a new container will be created & it's Container ID will be printed on terminal.
+After running this command, a new container will be created & its Container ID will be printed on terminal.
