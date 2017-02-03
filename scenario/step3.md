@@ -6,7 +6,7 @@ First, we will verify that the container is currently running by executing:
 `{{execute}}
 
 This command lists all the containers that are currently active.
-Copy either the CONTAINER ID or CONTAINER NAME from the output of above command as we will need it for next command.
+Copy either the **CONTAINER ID** or **CONTAINER NAME** from the output of above command as we will need it for next command.
 
 Now, it's time to log into it by executing:
 

@@ -6,10 +6,10 @@ To do so:
 
 	- Log into your Container.
 	- Go to your local repository (i.e. JenkinsGitTutorial)
-	- Make some changes in the "HelloWorld.java" file or create a new temporary text file in the directory.
+	- Make some changes in the **HelloWorld.java** file or create a new temporary text file in the directory.
 	- Now push the changes to remote repository.
 
-Once the changes are pushed to remote repository, we can observe the "Build History" section of our project dashboard.
+Once the changes are pushed to remote repository, we can observe the **Build History** section of our project dashboard.
 
 After waiting for few seconds, you will observe a new job started running in the Build Histoy Section.
 

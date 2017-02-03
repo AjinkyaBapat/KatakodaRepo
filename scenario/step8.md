@@ -5,12 +5,11 @@ After logging in to your Github account, create a "New Repository".
 Keep it blank for now.
 
 Now, log into the container by:
-`
-docker exec "CONTAINER ID/NAME" /bin/bash
 
+`docker exec "CONTAINER ID/NAME" /bin/bash
 `{{execute}}
 
-For this scenario, we already have set up both "Git" & "Java" for you on this machine.
+For this scenario, we already have set up both **Git** & **Java** for you on this machine.
 
 You can check if they are installed by:
 
@@ -30,7 +29,7 @@ To do that:
 
 Now you have to change the remote url from my repository to your newly created repository.
 To do that:
-	- Type "git remote set-url origin http://github.com/YOU/YOUR_REPO"
+	- Type **git remote set-url origin http://github.com/YOU/YOUR_REPO**
 	  (Make sure to change the url to your own repository)
 
 Now push this local repository to your remote repository by:
